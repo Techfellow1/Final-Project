@@ -1,0 +1,321 @@
+/* Section 1 */
+
+.navigation {
+	display: inline-block;
+}
+.navigation-block {
+  display: flex;
+  justify-content: space-between;
+  width: 1920px;
+  background-image: url(../images/3.jpg);
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 40px 0 323px;
+}
+
+.nav-li {
+	display: inline-block;
+	margin: 20px 20px;
+	font-display: BPGNinoMtavruli-Bold;
+}
+.nav-item1 {
+  margin-right: 18px;
+  margin-left: 49.8px;
+}
+.nav-item2 {
+  margin-right: 30px;
+}
+.logo {
+  vertical-align: middle;
+  color: red;
+}
+
+.html-image {
+	display: inline-block;
+  width: 60px;
+	margin-left: 145px;
+}
+
+.nav-item {
+	font-size: 22px;
+  color:#89e0ff;
+}
+
+.active {
+	color: rgb(164, 46, 105);
+}
+.burger-bar {
+  display: none;
+  font-size: 25px;
+  margin: 5px;
+  color: #fff;
+}
+
+.form-container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  margin-right: 50px;
+  background-color: #030b18;
+}
+.container {
+  color: #F2F2F2;
+  margin-top: 10px;
+  line-height: 25px;
+}
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #fff;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #fff;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #fff;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #82cf9f;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #d55ab4;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding-right: 50px;
+  padding-left: 20px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.video-container {
+  display: flex;
+  margin-left: 20px;
+}
+
+
+
+/* Section 2 */
+
+
+.banner-html {
+  width: 1100px;
+  height: 460px;
+  margin: 76.9px 98px 117.6px 215px;
+}
+
+.top-text {
+  font-size: 24px;
+  color: black;
+  margin: 0px 0px 0px 98px;
+}
+
+
+.left-block {
+	width: 570px;
+	height: 225px;
+	background: #F2F2F2;
+	display: inline-block;
+	margin: 30px 29px 0px 98px;
+    padding: 11px 15px 24px 20px;
+}
+
+.left-block-h3 {
+  font-size: 22px;
+  color: #3d58a6;
+}
+
+.p-text-left {
+  font-size: 22px;
+  color: #3D58A6;
+  display: inline-block;
+  width: 355px;
+  vertical-align: middle;
+  padding: 0px 0px 0px 61px;
+}
+
+.right-block {
+	width: 570px;
+	height: 225px;
+	background: #F2F2F2;
+	display: inline-block;
+	margin: 30px 0px 0px 0px;
+    padding: 11px 15px 24px 20px;
+}
+
+.right-block-h3 {
+  font-size: 22px;
+  color: #3d58a6;
+}
+
+.p-text-right {
+  font-size: 22px;
+  color: #3D58A6;
+  display: inline-block;
+  width: 355px;
+  vertical-align: middle;
+  padding: 0px 0px 0px 61px;
+}
+
+
+.block-text {
+	display: inline-block;
+	width: 335px;
+	vertical-align: middle;
+}
+
+.block-image {
+	vertical-align: middle;
+	padding: 13px 0px 0px 0px;
+}
+
+.divider {
+  width: 2px;
+  height: 27px;
+  background: #363E97;
+  display: inline-block;
+  margin: 4px 32px 45px 30px;
+  vertical-align: top;
+}
+
+.soc-icons {
+  margin: 15px 0px 37px 115px;
+}
+
+.box {
+  width: 56px;
+  height: 56px;
+  background-color: #3D58A6;
+  color: white;
+  font-size: 37px;
+  margin: 25px 25px;
+  padding: 10px 10px;
+}
+
+.month {
+  font-size: 22px;
+  color: #3d58a6;
+  margin: 2px 0px 0px 30px;
+}
+
+.article1 {
+  font-size: 20px;
+  color: black;
+  margin: 17.5px 0px 17.5px 30px;
+}
+
+.article-image {
+  vertical-align: top;
+  margin: 17.5px 39px 0px 30px;
+}
+
+.article-block {
+  width: 929px;
+  height: 360px;
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.article-text {
+  display: inline-block;
+  width: 929px;
+  vertical-align: top;
+}
+
+.p1 {
+  display: inline-block;
+  width: 929px;
+  vertical-align: top;
+}
+
+ul {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+
+.general-contact {
+  background: #E6E6E6;
+  width: 1700px;
+  height: 570px;
+  margin: 24.4px 0px 0px;
+}
+
+.contact-box {
+  width: 261px;
+  height: 98px;
+  display: inline-block;
+  margin: 51px 63px 420px 97px;
+}
+
+.contact-head {
+  font-size: 20px;
+  color: #3d58a6;
+}
+
+.address {
+  font-size: 16px;
+}
+
+.location {
+  font-size: 16px;
+}
+
+.phone {
+  font-size: 16px;
+}
+
+.email {
+  font-size: 16px;
+}
+
+.map-block {
+  width: 848.5px;
+  height: 464.5px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 20px 0px 0px 0px;
+}
